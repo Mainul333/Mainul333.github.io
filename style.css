@@ -45,7 +45,7 @@ form label {
 
 form input, form textarea {
   display: block;
-  width: 100%;
+  width: 20%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -56,5 +56,6 @@ form textarea {
 }
 
 form button {
-  background-color: #007
+  background-color: #1a73e8
+  font-color: white
 }
