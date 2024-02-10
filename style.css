@@ -56,6 +56,17 @@ form textarea {
 }
 
 form button {
-  background-color: #1a73e8
-  font-color: white
+background-color: #4285F4; /* Google blue */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+.button:hover {
+  background-color: #3d7af3; /* Darker blue on hover */
 }
